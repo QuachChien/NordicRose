@@ -128,7 +128,7 @@ body{
     padding: 10px;
 }
 .information-box-col-item{
-    border: 2px solid rgb(244, 228, 228);
+    /* border: 2px solid rgb(244, 228, 228); */
 }
 .information-box-img{
     display: block;
@@ -163,13 +163,14 @@ body{
     display: flex;
     text-align: center;
     justify-content: center;
+    width: 100%;
 }
 .footer-top .active{
     font-weight: 400;
     color: rgba(255, 255, 255, 0.758);
 }
 .footer-top li{
-    margin: 0 10px;
+    padding: 10px;
     font-weight: 800;
     font-size: 20px;
     line-height: 28px;
@@ -220,4 +221,6 @@ body{
     font-size: 12px;
     line-height: 22px;
 }
-
+i .fa-solid{
+    display: none;
+}

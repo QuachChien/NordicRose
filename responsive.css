@@ -1,0 +1,93 @@
+@media(min-width:701px){
+    .fa-solid{
+        display: none;
+    }
+}
+@media(max-width:700px){
+    .header{
+        display: flex;
+    }
+    .nav-name{
+        font-size: 20px;
+    }
+    .nav-ul{
+        position: absolute;
+        background: #ef382b;
+        height:100vh;
+        width: 180px;
+        top:0;
+        right: -180px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+        display: block;
+    }
+    .nav-li-item .active{
+       display: none;
+    }
+    .nav-li-item {
+        margin: 30px 30px;
+    }
+    .nav-li-item a{
+        color: #fff;
+    }
+    .fa-solid{
+        display: block;
+        color: rgb(0, 0, 0);
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .fa-xmark{
+        display: block;
+        color: #fff;
+        font-size: 22px;
+        cursor: pointer;
+        padding: 20px 0 0 30px;
+    }
+    .hero__box-text-h1{
+        font-size: 36px;
+    }
+    .hero__box-text-p{
+        font-size: 20px;
+    }
+    .information-box-text{
+        padding-top: 10px;
+        height: 90px;
+    }
+    .footer-top li{
+        font-style: 5px;
+        height: 10px;
+        display: block;
+    }
+    .footer-contact-h2{
+        font-size: 20px;
+        padding: 0;
+    }
+    .footer-contact{
+        width: 80%;
+    }
+    .footer-top{
+        height: 10px;
+    }
+    /* index2 */
+    .hero__box-text-h1{
+        font-size: 36px;
+    }
+    .introduce,
+    .text{
+        width: 90%;
+    }
+    .introduce__person{
+        display: block;
+    }
+    .introduce__person-app{
+        justify-content: space-around;
+        text-align: center;
+        border-radius: 2px;
+        border: 1px solid #945343;
+        height: 60px;
+    }
+    .introduce__person-app i{
+        width: 50%;
+    }
+}

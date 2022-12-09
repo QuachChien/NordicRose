@@ -42,3 +42,12 @@
     flex: 0 0 33.3333%;
     max-width: 33.3333%;
 }
+@media(max-width:700px){
+    .col{
+        padding: 16px;
+    }
+    .c-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

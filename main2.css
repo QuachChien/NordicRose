@@ -77,14 +77,16 @@
 .img-caption img{
     width: 100%;
 }
+.img-caption__text{
+    text-align: center;
+    margin: 0 auto; 
+
+}
 .img-caption p{
     padding-top: 12px;
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
-    text-align: center;
-    width: 600px;
-    margin: 0 auto; 
 }
 /*  */
 
@@ -160,6 +162,10 @@
     margin-left: 30px;
     margin-right: 50px;
     border-radius: 50%;
+}
+.text__comment-text{
+    justify-content: center;
+
 }
 .text__comment p{
     font-size: 16px;
