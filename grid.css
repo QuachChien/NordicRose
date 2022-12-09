@@ -1,0 +1,44 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+.grid{
+    max-width: 100%;/*chiêu ngang tối đa khi bóp màn hình nhỏ lại thì ta vẫn có thể vẫn hiện đủ 100%dữ liệu  */
+    margin: 0 auto;
+}
+.grid-full{
+    /*sd full màn hình*/
+    width: 100%;
+}
+.row {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.col {
+    padding: 12px;
+}
+.l-1,
+.l-2,
+.l-2-4,
+.l-3,
+.l-4,
+.l-5,
+.l-6,
+.l-7,
+.l-8,
+.l-9,
+.l-10,
+.l-11,
+.l-12 {
+    display: block;
+}
+.l-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.l-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+}
